@@ -1,5 +1,5 @@
 # 30-VanillaJS-Projects
 
 - [x] Keyboard Song
-- [ ] Clock
+- [x] Clock
 - [ ] Countdown Clock
