@@ -4,4 +4,4 @@
 - [x] Clock
 - [x] Countdown Clock.
 - [ ] Form Validator
-- [ ] Update CSS Variables
+- [x] Update CSS Variables
