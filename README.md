@@ -2,5 +2,6 @@
 
 - [x] Keyboard Song
 - [x] Clock
-- [ ] Countdown Clock.
+- [x] Countdown Clock.
 - [ ] Form Validator
+- [ ] Update CSS Variables
