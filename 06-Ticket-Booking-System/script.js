@@ -21,7 +21,8 @@ function updateSelectedCount() {
   const selectedSeatsCount = selectedSeats.length;
 
   count.innerText = selectedSeatsCount;
-  total.innerText = selectedSeatsCount * ticketPrice * 0.18;
+  const amount = selectedSeatsCount * ticketPrice;
+  total.innerText = (amount + (amount * 18 / 100)).toFixed(2);
 
   setMovieData(movieSelect.selectedIndex, movieSelect.value);
 }
