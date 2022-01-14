@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@400;700");
+body {
+  background: #141e29;
+  color: white;
+  font-family: "Cairo", sans-serif;
+  padding: 1em;
+}
+
+p {
+  font-size: 1.25em;
+  line-height: 1.5;
+}
