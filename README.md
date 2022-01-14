@@ -7,4 +7,9 @@
 - [x] Form Validator
 - [x] Ticket Booking System
 - [x] Password Encrypter
-- [ ] Live Transcripter
+- [x] Live Transcripter
+
+**Looking for more project ideas.**
+
+- [ ] 09 - 
+- [ ] 10 - 
