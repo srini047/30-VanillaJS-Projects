@@ -6,5 +6,5 @@
 - [x] Update CSS Variables
 - [x] Form Validator
 - [x] Ticket Booking System
-- [ ] Password Encrypter
+- [x] Password Encrypter
 - [ ] Live Transcripter

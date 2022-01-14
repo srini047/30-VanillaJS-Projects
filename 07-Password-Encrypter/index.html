@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/07-Password-Encrypter/style.css">
+    <title>Password Encrypter</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/pbkdf2.js"></script>
+</head>
+<body>
+    <div class="login">
+        <figure class="logo">
+            <img src="https://cdn1.iconfinder.com/data/icons/cryptography-soft-fill/60/025_-_Private_Password-lock-cryptography-encrypt-512.png" alt="encrpyt_logo" class="logo_image" />
+            <figcaption class="logo_name" style="font-size: 45px;">Password Encrypter</figcaption>
+        </figure>
+        <form class="form">
+            <div class="input">
+                <label class="input_label">Email</label>
+                <input type="email" class="email" id="email" placeholder="username@domain.com" required>
+            </div>
+            <div class="input">
+                <label class="input_label">Password</label>
+                <input type="password" class="password" id="password" placeholder="******" required>
+            </div>
+            <!-- <div>
+                <button class="submit" onClick="encrypt();">Log In</button>
+            </div> -->
+        </form>
+        <button class="submit" onClick="encrypt();" style="margin-left: 38%">Log In</button>
+    </div>
+
+    <script src="/07-Password-Encrypter/script.js"></script>
+</body>
+</html>
