@@ -8,8 +8,5 @@
 - [x] Ticket Booking System
 - [x] Password Encrypter
 - [x] Live Transcripter
-
-**Looking for more project ideas.**
-
-- [ ] 09 - 
-- [ ] 10 - 
+- [ ] Quiz App 
+<!-- - [ ] 10 -  -->
