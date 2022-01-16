@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/09-Quiz App/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Codedamn - Quiz Project</title>
+</head>
+
+<body>
+    <header>
+        <div class="highScores">
+            <a id=leaderboard>View Highscores <i class="fas fa-hand-point-left fa-lg"></i>
+            </i></a>
+        </div>
+        <div class="time">Time : <span id="time"></span></div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="landingPage" id="landingPage">
+                <h1>Coding Quiz Challenge</h1>
+                <p>
+                    Try to answer coding-based questions within the given time.
+                </p>
+                <p>
+                    Note: Incorrect answers will reduce the time by 10 seconds.
+                </p>
+                <button class="startButton" id="startButton" onclick="start()">Start Quiz</button>
+            </div>
+            <div class="quizPage hide" id="quizPage">
+                <div id="question">Welcome!</div>
+                <div id="options" onclick="getElement(event)">
+                    <button id="option1"></button>
+                    <button id="option2"></button>
+                    <button id="option3"></button>
+                    <button id="option4"></button>
+                </div>
+                <div id="comment" class+"hide"></div>
+            </div>
+            <div class="hide" id="timeOver">
+                <h1>You have successfully completed the Quiz.</h1>
+                <div class="score">Yout final score is <span id="initials"></span></div>
+                <div class="initials">
+                    Enter initials: <input type="text" value+"" od+score>
+                    <button class="submit" onclick="submit()">submit</button>
+                </div>
+            </div>
+            <div id="highScoreContainer" class="hide">
+                <h1>Highscores</h1>
+                <ol id="highScore">No Highscores!!</ol>
+                <button class="submit" onclick="backButton()">Back</button>
+                <button class="submit" onclick="clearScore()">Clear Highscores</button>
+            </div>
+        </div>
+    </main>
+    
+    <script src="assets/script.js"></script>
+</body>
+</html>
