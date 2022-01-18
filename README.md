@@ -10,3 +10,4 @@
 - [x] Live Transcripter
 - [ ] Quiz App 
 - [ ] MP-3 Player 
+- [ ] Buy Smartwatch
