@@ -16,11 +16,11 @@
 
     <section id="product">
       <div id="avatar">
-          <img src="/11-Buy Smartwatch/assets/black.png" alt="watch_black" id="defaultImage">
+          <img src="/11-Buy Smartwatch/assets/black.png" alt="watch_black" id="defaultImage" />
           <p id="time" style="visibility: visible;"></p>
 
-          <!-- <img src="/11-Buy Smartwatch/assets/heart.png" alt="heart_beat_image"> -->
-          <p id="heart-rate" style="visibility: hidden"><span>78</span></p>
+          <img src="/11-Buy Smartwatch/assets/heart.png" alt="heart_beat_image" id="heart" />
+          <p id="heart-rate"><span>78</span></p>
       </div>
       <div id="info">
         <h1 class="title">Fit Bit Smart Watch</h1>
@@ -40,8 +40,8 @@
         </ul>
         <h2 class="section">Features</h2>
         <ul class="features">
-            <li class="timer">Timer</li>
-            <li class="heart">Heart Rate</li>
+            <li><a onClick="timer()">Timer</a></li>
+            <li><a onClick="heartbeat()">Heart Rate</a></li>
         </ul>
         <button class="buy-now">Buy Now</button>
       </div>
