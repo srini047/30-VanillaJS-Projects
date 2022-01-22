@@ -11,3 +11,6 @@
 - [ ] Quiz App 
 - [ ] MP-3 Player 
 - [x] Buy Smartwatch
+- [ ] Calculator
+- [x] Authentication - Sawo
+<!-- - [ ]  -->
